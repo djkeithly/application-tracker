@@ -7,17 +7,17 @@
     <link rel="preconnect" href="<https://fonts.bunny.net>">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen flex flex-col bg-base-200 font-sans">
-    <nav class="navbar bg-base-100">
-        
-    </nav>
+<body class="h-screen flex flex-col bg-base-200 font-sans">
+    <content class="min-w-full flex flex-row h-full">
 
-    <main class="flex-1 container mx-auto px-4 py-8">
-        {{ $slot }}
-    </main>
+        <sidebar class="w-[25%] h-full flex items-center justify-center">
+            <x-sidebar />
+        </sidebar>
 
-    <footer class="footer footer-center p-5 bg-base-300 text-base-content text-xs">
-        
-    </footer>
+        <main class="flex-1 container mx-auto px-4 py-8 w-[75%]">
+            {{ $slot }}
+        </main>
+    </content>
+
 </body>
 </html>
