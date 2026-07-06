@@ -78,3 +78,9 @@ This is mostly a learning expirence for myself (Dennis Keithly reached at DJKeit
 Once everything is installed run:
 
 composer run dev
+
+## Point of the projects
+
+This project has been undertaken as a learning expirence for myself, Dennis Keithly. The general concepts are going to be simple but are designed to allow me to framiliarize myself with new technologies or apply old techniques on my own.
+
+One of the items have been attempting to learn is php and Laravel using the documentation found here: https://laravel.com/learn/getting-started-with-laravel
