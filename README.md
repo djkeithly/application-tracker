@@ -56,3 +56,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+---
+
+<p align="center> Application Project </p
+
+This is an application designed to track the status of job applications.
+This will be able to track applications by user entered status and also expire them based off of user set timers
+
+This is mostly a learning expirence for myself (Dennis Keithly reached at DJKeithly3@gmail.com) and thus while there will be a demo and a deployed site upon completion, no budget is being allocated
+
+## Tech Stack
+
+- PHP: Language
+- Laravel: Framework
+- Tailwind: Styling
+- Vite
+
+## How to run
+
+Once everything is installed run:
+
+composer run dev
+
+## Point of the projects
+
+This project has been undertaken as a learning expirence for myself, Dennis Keithly. The general concepts are going to be simple but are designed to allow me to framiliarize myself with new technologies or apply old techniques on my own.
+
+One of the items have been attempting to learn is php and Laravel using the documentation found here: https://laravel.com/learn/getting-started-with-laravel
